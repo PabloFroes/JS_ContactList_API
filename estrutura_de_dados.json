@@ -1,0 +1,19 @@
+{
+    "User":{
+        "name": {"type": "String", "required": true},
+        "email": {"type": "String", "required": true, "unique": true},
+        "password": {"type": "String", "required": true},
+        "Created_at": {"type": "Date", "default": "Date.now"},
+        "Updated_at": {"type": "Date", "default": "Date.now"}
+    },
+    "Contact": {
+        "name": {"type": "String", "required": true, "unique": true},
+        "tel": "Number",
+        "email": "String",
+        "owner": {"type": "mongoose.Schema.Types.ObjectId", "ref": "User", "required": true},
+        "ownerName": {"type": "String"},
+        "Created_at": {"type": "Date", "default": "Date.now"},
+        "Updated_at": {"type": "Date", "default": "Date.now"},
+        "index": {"name": "text"}
+    }
+}
