@@ -23,5 +23,5 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-## You will need contact list api running to use this api
+## You will need JS Contact List app running to use this api
 ### [JS_Contact_List](https://github.com/PabloFroes/JS_ContactList)
