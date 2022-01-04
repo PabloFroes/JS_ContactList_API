@@ -12,3 +12,16 @@ Link to access: https://js-contact-list-client.herokuapp.com/
 <br/>
 <img src="https://i.ibb.co/9HJ0kqM/js-contatact-list-home.jpg" alt="js-contatact-list-home" border="0">
 <img src="https://i.ibb.co/WpqxYZ1/js-contatact-list.jpg" alt="js-contatact-list" border="0">
+
+## To Run (Required Mongo_DB intalled)
+
+In the project directory, you can run:
+
+### `npm install`
+### `port=3001 npx nodemon`
+
+Runs the app in the development mode.\
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
+## You will need contact list api running to use this api
+### [JS_Contact_List](https://github.com/PabloFroes/JS_ContactList)
